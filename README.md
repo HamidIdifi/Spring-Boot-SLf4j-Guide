@@ -1,10 +1,10 @@
 # Slf4j with Logback in spring boot
 
-## Introduction
+## 1.Introduction
 
 Logging is a crucial aspect of software development for monitoring, debugging, and understanding the flow of an application. This repository focuses on using Logback, a popular logging framework, in a Spring Boot environment.
 
-## The Basics of Logging in Spring Boot
+## 2.The Basics of Logging in Spring Boot
 
 ### the significance of logging in software development
 
@@ -58,7 +58,7 @@ In the world of logging, not all messages are created equal. Messages are catego
 >
 > Each level is inclusive of the levels above it. For instance, if you set the level to WARN, you’ll also see ERROR messages, but not INFO, > DEBUG, or TRACE.
 
-## Dependencies
+## 3.Dependencies
 
 To use SLF4J in a Spring Boot application, ensure the following dependencies are added to your project:
 
@@ -83,16 +83,7 @@ To use SLF4J in a Spring Boot application, ensure the following dependencies are
     </dependencies>
 ```
 
-## Getting Started
-
-Clone the repository:
-
-```bash
-git clone https://github.com/noureddine409/memories-backend
-cd memories-backend
-```
-
-## Configuring Logging in application.properties
+## 4.Configuring Logging in application.properties
 
 Update application properties in src/main/resources/application.properties:
 
@@ -127,11 +118,11 @@ logging.file.max-size=10MB
 logging.file.max-history=10
 ```
 
-## What is Lombok?
+
+## 5.Logging Annotations by Lombok
+### What is Lombok?
 
 Lombok is a compile-time annotation processor. Instead of you writing repetitive code or relying on your IDE to generate it, Lombok provides annotations to instruct the compiler to generate the code on your behalf.
-
-## Logging Annotations by Lombok
 
 While Lombok offers various annotations for diverse tasks, like @Data for getters, setters, and other common methods, we'll focus on the logging annotations:
 
@@ -146,11 +137,11 @@ public class MyService {
 }
 ```
 
-## Best Practices with @Slf4j and Logging
+## 6.Best Practices with @Slf4j and Logging
 
 Logging effectively is as much about technique as it is about the tools. While @Slf4j eliminates boilerplate and simplifies logger instantiation, it's vital to understand and adhere to logging best practices to make the most of it.
 
-### Log Meaningful Messages
+### 6.1.Log Meaningful Messages
 
 Ensure that each log message provides context and is clear enough for someone unfamiliar with the code to understand. Ambiguous messages like “Error occurred” should be avoided.
 
