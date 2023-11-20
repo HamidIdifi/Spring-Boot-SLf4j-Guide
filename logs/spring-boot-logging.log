@@ -1,0 +1,76 @@
+2023-06-18T18:49:59.789+02:00  INFO 4280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-18T18:49:59.799+02:00  INFO 4280 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-18T18:49:59.800+02:00  INFO 4280 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-18T18:49:59.883+02:00  INFO 4280 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-18T18:49:59.883+02:00  INFO 4280 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2023-06-18T18:50:00.318+02:00  INFO 4280 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18T18:52:19.395+02:00  INFO 4280 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [g_state={"i_l":0,"i_t":1685783718490}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2023-06-18T18:52:19.408+02:00  INFO 4280 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-18T18:52:19.409+02:00  INFO 4280 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-18T18:52:19.411+02:00  INFO 4280 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-06-18T18:52:19.461+02:00 DEBUG 4280 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : A DEBUG Message
+2023-06-18T18:52:19.462+02:00  INFO 4280 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : An INFO Message
+2023-06-18T18:52:19.462+02:00  WARN 4280 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : A WARN Message
+2023-06-18T18:52:19.462+02:00 ERROR 4280 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : An ERROR Message
+2023-06-18T18:53:58.529+02:00  INFO 14412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-18T18:53:58.552+02:00  INFO 14412 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-18T18:53:58.552+02:00  INFO 14412 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-18T18:53:58.651+02:00  INFO 14412 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-18T18:53:58.652+02:00  INFO 14412 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1544 ms
+2023-06-18T18:53:59.134+02:00  INFO 14412 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18T18:54:24.980+02:00  INFO 12664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-18T18:54:24.999+02:00  INFO 12664 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-18T18:54:25.000+02:00  INFO 12664 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-18T18:54:25.145+02:00  INFO 12664 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-18T18:54:25.146+02:00  INFO 12664 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1614 ms
+2023-06-18T18:54:25.849+02:00  INFO 12664 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18T18:54:38.456+02:00  INFO 12664 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [g_state={"i_l":0,"i_t":1685783718490}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2023-06-18T18:54:38.464+02:00  INFO 12664 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-18T18:54:38.464+02:00  INFO 12664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-18T18:54:38.465+02:00  INFO 12664 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-18T18:54:38.494+02:00  WARN 12664 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : A WARN Message
+2023-06-18T18:54:38.495+02:00 ERROR 12664 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : An ERROR Message
+2023-06-18T18:55:27.579+02:00  INFO 2704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-18T18:55:27.593+02:00  INFO 2704 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-18T18:55:27.594+02:00  INFO 2704 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-18T18:55:27.685+02:00  INFO 2704 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-18T18:55:27.685+02:00  INFO 2704 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1366 ms
+2023-06-18T18:55:28.098+02:00  INFO 2704 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18T18:58:31.058+02:00  INFO 9848 --- [main] c.l.t.LoggingWithSlf4JApplication        : Starting LoggingWithSlf4JApplication using Java 18.0.2.1 with PID 9848 (C:\Users\Lenovo\Desktop\after-pfa-projects\loggingWithSLF4J\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\after-pfa-projects\loggingWithSLF4J)
+2023-06-18T18:58:31.062+02:00  INFO 9848 --- [main] c.l.t.LoggingWithSlf4JApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-06-18T18:58:32.480+02:00  INFO 9848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-18T18:58:32.493+02:00  INFO 9848 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-18T18:58:32.493+02:00  INFO 9848 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-18T18:58:32.587+02:00  INFO 9848 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-18T18:58:32.587+02:00  INFO 9848 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1445 ms
+2023-06-18T18:58:32.994+02:00  INFO 9848 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18T18:58:33.002+02:00  INFO 9848 --- [main] c.l.t.LoggingWithSlf4JApplication        : Started LoggingWithSlf4JApplication in 2.692 seconds (process running for 3.72)
+2023-06-18T18:58:50.052+02:00  INFO 9848 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [g_state={"i_l":0,"i_t":1685783718490}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2023-06-18T18:58:50.061+02:00  INFO 9848 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-18T18:58:50.061+02:00  INFO 9848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-18T18:58:50.063+02:00  INFO 9848 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-06-18T18:58:50.093+02:00 DEBUG 9848 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : A DEBUG Message
+2023-06-18T18:58:50.094+02:00  INFO 9848 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : An INFO Message
+2023-06-18T18:58:50.094+02:00  WARN 9848 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : A WARN Message
+2023-06-18T18:58:50.094+02:00 ERROR 9848 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : An ERROR Message
+2023-06-18T19:08:16.247+02:00  INFO 2188 --- [main] c.l.t.LoggingWithSlf4JApplication        : Starting LoggingWithSlf4JApplication using Java 18.0.2.1 with PID 2188 (C:\Users\Lenovo\Desktop\after-pfa-projects\loggingWithSLF4J\target\classes started by Lenovo in C:\Users\Lenovo\Desktop\after-pfa-projects\loggingWithSLF4J)
+2023-06-18T19:08:16.251+02:00  INFO 2188 --- [main] c.l.t.LoggingWithSlf4JApplication        : No active profile set, falling back to 1 default profile: "default"
+2023-06-18T19:08:17.935+02:00  INFO 2188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-18T19:08:17.953+02:00  INFO 2188 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-18T19:08:17.954+02:00  INFO 2188 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-18T19:08:18.100+02:00  INFO 2188 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-18T19:08:18.101+02:00  INFO 2188 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1765 ms
+2023-06-18T19:08:18.801+02:00  INFO 2188 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-18T19:08:18.829+02:00  INFO 2188 --- [main] c.l.t.LoggingWithSlf4JApplication        : Started LoggingWithSlf4JApplication in 3.433 seconds (process running for 4.601)
+2023-06-18T19:08:30.681+02:00  INFO 2188 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [g_state={"i_l":0,"i_t":1685783718490}] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2023-06-18T19:08:30.689+02:00  INFO 2188 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-18T19:08:30.689+02:00  INFO 2188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-18T19:08:30.691+02:00  INFO 2188 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-06-18T19:08:30.730+02:00 DEBUG 2188 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : A DEBUG Message
+2023-06-18T19:08:30.730+02:00  INFO 2188 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : An INFO Message
+2023-06-18T19:08:30.731+02:00  WARN 2188 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : A WARN Message
+2023-06-18T19:08:30.731+02:00 ERROR 2188 --- [http-nio-8080-exec-1] c.l.toturial.controllers.HomeResource    : An ERROR Message
