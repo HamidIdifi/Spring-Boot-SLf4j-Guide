@@ -160,12 +160,16 @@ public class PaymentService {
 
 Misusing log levels can result in missed critical information or log bloat. Ensure you’re using the right level:
 
-**ERROR**: For serious issues that may prevent the application from continuing.
-**WARN**: For potential problems that don’t halt operation.
-**INFO**: General operational messages about the application state ( such as the successful start of app or the completion of important tasks)
-**DEBUG**: Messages useful for debugging, but too verbose for general logs.
-**TRACE**: Very detailed messages, typically used for intricate debugging.
-
+> **ERROR**: For serious issues that may prevent the application from continuing.
+> 
+> **WARN**: For potential problems that don’t halt operation.
+> 
+> **INFO**: General operational messages about the application state ( such as the successful start of app or the completion of important tasks)
+> 
+> **DEBUG**: Messages useful for debugging, but too verbose for general logs.
+> 
+> **TRACE**: Very detailed messages, typically used for intricate debugging.
+ 
 ### 6.3. Avoid Logging Sensitive Information
 
 Never log sensitive information like passwords, credit card numbers, or personally identifiable information (PII). This is a security best practice and, in many jurisdictions, a legal requirement.
