@@ -1,12 +1,12 @@
 # Slf4j with Logback in spring boot
 
-## 1.Introduction
+## 1. Introduction
 
 Logging is a crucial aspect of software development for monitoring, debugging, and understanding the flow of an application. This repository focuses on using Logback, a popular logging framework, in a Spring Boot environment.
 
-## 2.The Basics of Logging in Spring Boot
+## 2. The Basics of Logging in Spring Boot
 
-### the significance of logging in software development
+### 2.1. the significance of logging in software development
 
 #### Debugging and Troubleshooting:
 
@@ -38,11 +38,11 @@ Logging is a crucial aspect of software development for monitoring, debugging, a
 
 - **Feedback Loop**: The information gathered from logs can be used as feedback for continuous improvement.
 
-### the role of logging frameworks
+### 2.2. the role of logging frameworks
 
 **Logging frameworks** like **SLF4J** play a vital role by providing a standardized and flexible logging infrastructure. They abstract the complexities of logging, allowing developers to focus on writing code while ensuring that the application's behavior is transparent and accessible for monitoring and diagnostics. The role of logging frameworks in standardizing and enhancing the logging process is fundamental to building robust and maintainable software systems.
 
-### Understanding Logging Levels
+### 2.3. Understanding Logging Levels
 
 In the world of logging, not all messages are created equal. Messages are categorized by severity or importance, known as logging levels. Spring Boot supports the standard levels, which are:
 
@@ -58,7 +58,7 @@ In the world of logging, not all messages are created equal. Messages are catego
 >
 > Each level is inclusive of the levels above it. For instance, if you set the level to WARN, you’ll also see ERROR messages, but not INFO, > DEBUG, or TRACE.
 
-## 3.Dependencies
+## 3. Dependencies
 
 To use SLF4J in a Spring Boot application, ensure the following dependencies are added to your project:
 
@@ -83,7 +83,7 @@ To use SLF4J in a Spring Boot application, ensure the following dependencies are
     </dependencies>
 ```
 
-## 4.Configuring Logging in application.properties
+## 4. Configuring Logging in application.properties
 
 Update application properties in src/main/resources/application.properties:
 
@@ -119,7 +119,7 @@ logging.file.max-history=10
 ```
 
 
-## 5.Logging Annotations by Lombok
+## 5. Logging Annotations by Lombok
 ### What is Lombok?
 
 Lombok is a compile-time annotation processor. Instead of you writing repetitive code or relying on your IDE to generate it, Lombok provides annotations to instruct the compiler to generate the code on your behalf.
@@ -137,11 +137,11 @@ public class MyService {
 }
 ```
 
-## 6.Best Practices with @Slf4j and Logging
+## 6. Best Practices with @Slf4j and Logging
 
 Logging effectively is as much about technique as it is about the tools. While @Slf4j eliminates boilerplate and simplifies logger instantiation, it's vital to understand and adhere to logging best practices to make the most of it.
 
-### 6.1.Log Meaningful Messages
+### 6.1. Log Meaningful Messages
 
 Ensure that each log message provides context and is clear enough for someone unfamiliar with the code to understand. Ambiguous messages like “Error occurred” should be avoided.
 
@@ -156,7 +156,7 @@ public class PaymentService {
 }
 ```
 
-### Use Appropriate Logging Levels
+### 6.2. Use Appropriate Logging Levels
 
 Misusing log levels can result in missed critical information or log bloat. Ensure you’re using the right level:
 
@@ -166,11 +166,11 @@ Misusing log levels can result in missed critical information or log bloat. Ensu
 **DEBUG**: Messages useful for debugging, but too verbose for general logs.
 **TRACE**: Very detailed messages, typically used for intricate debugging.
 
-### Avoid Logging Sensitive Information
+### 6.3. Avoid Logging Sensitive Information
 
 Never log sensitive information like passwords, credit card numbers, or personally identifiable information (PII). This is a security best practice and, in many jurisdictions, a legal requirement.
 
-### Use Parameterized Logging
+### 6.4. Use Parameterized Logging
 
 Instead of string concatenation, utilize parameterized logging provided by SLF4J. This approach is efficient and can prevent unnecessary string creation.
 
@@ -179,15 +179,15 @@ String orderId = "O12345";
 log.info("Processing order with ID: {}", orderId);
 ```
 
-### Avoid Logging Inside Tight Loops
+### 6.5. Avoid Logging Inside Tight Loops
 
 Logging inside loops, especially tight loops, can slow down an application significantly and generate enormous log files. Be judicious with logging inside loops, especially at DEBUG or TRACE levels.
 
-### Stay Consistent
+### 6.6. Stay Consistent
 
 Maintain consistency in logging patterns across your application. It aids in readability and ensures automated tools can parse logs effectively.
 
-## References
+## 7. References
 
 [SLF4J Official Documentation](https://www.slf4j.org/docs.html)
 
